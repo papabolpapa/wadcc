@@ -1,0 +1,20 @@
+h1,h2{
+    text-align: center;
+}  
+#About
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#forms
+{
+    align-self: center;
+    height: auto;
+    width: 20%;
+}
+#form_1
+{
+    align-items: center;
+}

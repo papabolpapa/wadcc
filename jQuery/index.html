@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="https://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.css" />
+    <script src="https://code.jquery.com/jquery-1.11.1.min.js"></script>
+    <script src="https://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
+    <title>I2it</title>
+    <link rel="shortcut icon" href="https://www.isquareit.edu.in/wp-content/uploads/2023/06/logo.png"
+        type="image/x-icon">
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <div data-role="page" id="home">
+        <div data-role="header" id="myheader">
+            <h1>International Institute of Information Technology </h1>
+            <h2>I<sup>2</sup>IT</h2>
+
+        </div>
+
+        <div data-role="navbar">
+            <ul>
+                <li><a href="#home" class="ui-btn-active">Home</a></li>
+                <li><a href="#about">About Us</a></li>
+                <li><a href="#departments">Departments</a></li>
+                <li><a href="#contact">Contact Us</a></li>
+            </ul>
+        </div>
+
+        <div data-role="content">
+            <p><b>Welcome to the International Institute of Information Technology (I<sup>2</sup>IT). We are dedicated
+                    to providing quality education in the field of Information Technology.</b></p>
+
+            <dl>
+                <dt><b>Vision:</b></dt>
+                &nbsp;
+                <dd>To be a premier academic institution that fosters diversity, value-added education and research,
+                    leading to sustainable innovations and transforming learners into leaders.</dd>
+                &nbsp;
+                <dt><b>Mission:</b></dt>
+                <dd>
+                    <ul type="dot">
+                        <li>To strive for academic excellence, knowledge enhancement and critical thinking
+                            capabilities by adopting innovative and dynamic teaching-learning pedagogies</li>
+                        <li>To enrich and leverage interactions and associations through Industry-Academia
+                            partnerships</li>
+                        <li>To groom students so as to make them lifelong learners by helping them imbibe
+                            professional, entrepreneurial and leadership qualities</li>
+                        <li>To embrace an environment that allows all stakeholders to benefit from the
+                            technology-enabled processes and systems</li>
+
+
+
+                    </ul>
+                </dd>
+
+            </dl>
+        </div>
+
+        <div data-role="footer">
+            <h4>Address: Hinjawadi, Pune, Maharashtra, India</h4>
+            <p style="text-align: center;">&copy; 2025 I<sup>2</sup>IT. All Rights Reserved.</p>
+        </div>
+
+
+    </div>
+
+    <div data-role="page" id="about">
+        <div data-role="Header" id="myheader">
+            <h1>International Institute of Information Technology </h1>
+            <h2>I<sup>2</sup>IT</h2>
+
+        </div>
+        <div data-role="navbar">
+            <ul>
+                <li><a href="#home" >Home</a></li>
+                <li><a href="#about" class="ui-btn-active">About Us</a></li>
+                <li><a href="#departments">Departments</a></li>
+                <li><a href="#contact">Contact Us</a></li>
+            </ul>
+        </div>
+       <div data-role="content" id="About">
+        <img src="https://www.isquareit.edu.in/wp-content/uploads/2018/06/I2IT-Infrastructure.jpg" alt="I2it 1" height="250" width="400">
+        <img src="https://www.isquareit.edu.in/wp-content/uploads/2019/02/Main-Gate-Photo-1.jpg" alt="I2it 2" height="250" width="400">
+        <img src="https://images.shiksha.com/mediadata/images/1503469191php8vvZsv.jpeg" alt="I2it" height="250" width="400">
+       </div>
+
+        <div data-role="footer">
+            <h4>Address: Hinjawadi, Pune, Maharashtra, India</h4>
+            <p style="text-align: center;">&copy; 2025 I<sup>2</sup>IT. All Rights Reserved.</p>
+        </div>
+    </div>
+
+    <div data-role="page" id="departments">
+        <div data-role="Header" id="myheader">
+            <h1>International Institute of Information Technology </h1>
+            <h2>I<sup>2</sup>IT</h2>
+
+        </div>
+        <div data-role="navbar">
+            <ul>
+                <li><a href="#home" >Home</a></li>
+                <li><a href="#about" >About Us</a></li>
+                <li><a href="#departments" class="ui-btn-active">Departments</a></li>
+                <li><a href="#contact">Contact Us</a></li>
+            </ul>
+        </div>
+        <div data-role="content">
+            <ul data-role="listview">
+                <li><a href="#">Computer Engineering</a></li>
+                <li><a href="#">Electronics & Telecommunication Engineering</a></li>
+                <li><a href="#">Information Technology</a></li>
+            </ul>
+        </div>
+
+        <div data-role="footer">
+            <h4>Address: Hinjawadi, Pune, Maharashtra, India</h4>
+            <p style="text-align: center;">&copy; 2025 I<sup>2</sup>IT. All Rights Reserved.</p>
+        </div>
+    </div>
+
+
+    <div data-role="page" id="contact">
+        <div data-role="header">
+            <h1>Contact Us</h1>
+        </div>
+        
+        <div data-role="navbar">
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About Us</a></li>
+                <li><a href="#departments">Departments</a></li>
+                <li><a href="#contact" class="ui-btn-active">Contact Us</a></li>
+            </ul>
+        </div>
+        
+        
+        <div data-role="content" id="forms">
+            <form>
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+                
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+                
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" required></textarea>
+                
+                <input type="submit" value="Submit">
+                <input type="reset" value="Reset">
+            </form>
+        </div>
+ 
+        
+        <div data-role="footer">
+            <h4>Address: Hinjawadi, Pune, Maharashtra, India</h4>
+            <p style="text-align: center;">&copy; 2025 I<sup>2</sup>IT. All Rights Reserved.</p>
+        </div>
+</body>
+
+</html>
